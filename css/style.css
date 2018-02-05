@@ -1,0 +1,166 @@
+#wrapper{
+	width: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 5em;
+}
+#logo{
+	float: left;
+	margin-left: 20px;
+	font-size: 16pt;
+	margin-top: 22px;
+}
+#social{
+	float: right;
+	margin-right: 20px;
+	margin-top: 22px;
+}
+.fa-2x{
+	font-size: 2em;
+    color: #666666;
+}
+.clearfix{
+	clear: both;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*li {
+    float: center;
+}*/
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*dropdown*/
+nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 42px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+    background-color: #666666;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*image and text*/
+.image {
+    position:relative;
+}
+.container{
+	position: relative;
+}
+.text-block{
+    left: 0;
+    position:absolute;
+    text-align:center;
+    bottom: 40px;
+    font-size: 15pt;
+   	margin-left: 335px;
+    background-color: #666666;
+}
+/*home content*/
+.mid-container{
+	text-align: center;
+	width: 100%;
+	height: 15em;
+	position: relative;
+}
+.mid-container p{
+	margin: 0;
+	position: absolute;
+	font-size: 15pt;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.clearfix{
+	clear: both;
+}
+footer{
+	background-color: #666666;
+	height: 5em;
+}
+.right-side{
+	float: right;
+	text-align: center;
+	margin: 12px 20px 0px 0px;
+}
+.left-side{
+	float: left;
+	text-align: center;
+	margin: 38px 0px 0 20px;
+}
+.clearfix{
+	clear: both;
+}
+
